@@ -17,6 +17,18 @@ Apache Cordova Team
 <allow-intent href="geo:*" />
 <platform name="android">
 <allow-intent href="market:*" />
+  <splash src="screen.png" density="land-ldpi"/>
+    <splash src="screen.png" density="land-mdpi"/>
+    <splash src="screen.png" density="land-hdpi"/>
+    <splash src="screen.png" density="land-xhdpi"/>
+    <splash src="screen.png" density="land-xxhdpi"/>
+    <splash src="screen.png" density="land-xxxhdpi"/>
+    <splash src="res/drawable-port-ldpi-v4/screen.png/screen.png" density="port-ldpi"/>
+    <splash src="res/drawable-port-mdpi-v4/screen.png/screen.png" density="port-mdpi"/>
+    <splash src="res/drawable-port-hdpi-v4/screen.png/screen.png" density="port-hdpi"/>
+    <splash src="res/drawable-port-xhdpi-v4/screen.png/screen.png" density="port-xhdpi"/>
+    <splash src="res/drawable-port-xxhdpi-v4/screen.png/screen.png" density="port-xxhdpi"/>
+    <splash src="res/drawable-port-xxxhdpi-v4/screen.png/screen.png" density="port-xxxhdpi"/>
 </platform>
 <platform name="ios">
 <allow-intent href="itms:*" />
